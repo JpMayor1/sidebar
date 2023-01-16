@@ -1,28 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="style.css">
-    <!-- icon link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <nav class="sidebar">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <img src="/1.jpg" alt="">
-                </span>
-                <div class="text header-text">
-                    <span class="name">D and J</span>
-                    <span class="business">Diner</span>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sidebar</title>
+        <!-- icon link -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- css link -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <img src="/1.jpg" alt="" />
+                    </span>
+                    <div class="text header-text">
+                        <span class="name">D and J</span>
+                        <span class="business">Diner</span>
+                    </div>
+                </div>
+                <i class="bx bx-chevron-right toggle"></i>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                            <li class="nav-link">
+                                <a href="#home">
+                                    <i class="bx bx-home icon"></i>
+                                    <span class="text nav-text">Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#about">
+                                    <i class="bx bx-info-circle icon"></i>
+                                    <span class="text nav-text">About</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#contact">
+                                    <i class="bx bxs-contact icon"></i>
+                                    <span class="text nav-text">Contact</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="reservation">
+                                    <i class="bx bx-cart icon"></i>
+                                    <span class="text nav-text"
+                                        >Reservation</span
+                                    >
+                                </a>
+                            </li>
+                    </ul>
+                    <div class="bottom-content">
+                        <li class="nav-link">
+                            <a href="https://web.facebook.com/profile.php?id=100085932051209" target="_blank">
+                                <i class="bx bxl-facebook icon"></i>
+                                <span class="text nav-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://www.instagram.com/dj.diner/" target="_blank">
+                                <i class="bx bxl-instagram icon"></i>
+                                <span class="text nav-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="logout">
+                            <a href="/users/logout" class="logout">
+                                <i class="bx bx-log-out icon"></i>
+                                <span class="text nav-text">Logout</span>
+                            </a>
+                        </li>
+                    </div>
                 </div>
             </div>
-        </header>
-    </nav>
-</body>
+        </nav>
+        <section class="home" id="home">
+            <div class="text">dashboard
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta neque excepturi, itaque consequuntur corrupti, saepe, omnis tempora facere dolor ducimus provident veritatis! Commodi inventore libero et cumque officia earum consequatur, fugiat nostrum, dolorem ad incidunt explicabo nobis eos qui nisi maxime enim necessitatibus aperiam obcaecati laborum maiores sequi! Rerum, perferendis.
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="text">about
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto aliquam, in animi odio consectetur maxime repudiandae cum, ullam reiciendis voluptate nobis ipsa soluta recusandae temporibus harum delectus. Recusandae, eligendi eius? Laudantium unde ipsam quas odio quis recusandae alias nesciunt. Maiores fuga consequatur neque molestias sequi vitae quasi amet quaerat?
+            </div>
+        </section>
+        <footer class="contact" id="contact">
+            <div class="text">0909090909</div>
+            <div class="text">d&j@gmail.com</div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>
