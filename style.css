@@ -12,11 +12,11 @@
 :root {
     /* COLORS */
     --body-color: #E4E9F7;
-    --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --sidebar-color: #D5CEA3;
+    --primary-color: #d6d6d6;
     --body-color-light: #F6F5FF;
     --toggle-color: #DDD;
-    --text-color: #707070;
+    --text-color: #353434;
 
     /* TRANSITION */
     --trans-02: all 0.2s ease;
@@ -102,7 +102,7 @@ header .image-text .header-text {
     height: 25px;
     width: 25px;
     transform: translateY(-50%) rotate(180deg);
-    background: var(--primary-color);
+    background: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,7 @@ header .image-text .header-text {
 }
 .sidebar li a:hover .icon,
 .sidebar li a:hover .text {
-    color: var(--sidebar-color);
+    color: var(--text-color);
 }
 .sidebar .menu-bar {
     height: calc(100% - 50px);
